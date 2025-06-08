@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+ <title>contact</title>
+    </head>
+    <body>
+       
+        <form action="contact"method="post"> 
+           <label for="username">Name:</label>
+            <input type="text"name="username"placeholder="Enter your name" required 
+            style="margin:10px 0;">
+            <input type="text"name="lastname"placeholder="Enter your lastname"style="margin:10px 0;">
+            <br>
+            <lable for="dob">DOB:</lable>
+            <input type="date" placeholder="dd/mm/yyyy" >
+            <br>
+             <div>
+             <label for="gender">Select Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" >
+            <label for="male">Male</label>
+
+             <input type="radio" id="female" name="gender" value="female" >
+             <label for="female">Female</label>
+            
+        </select>
+            <br>
+            <lable or="Email">Email:</lable>
+            <input type="email"name="email"placeholder="Enter your email"  style="margin:10px 0;"required>
+            <br>
+            <lable for="contact">contact:</lable>
+            <input type="number"placeholder="Enter your mobile number" style="margin:10px 0;" required>
+            <br>
+            <lable for="message">Send message:</lable>
+            <textarea name="text"placeholder="message" ></textarea>
+            <br>
+            <lable for="country">country:</lable>
+            <select name="country"style="margin:10px 0;" >
+                <option value="">India</option>
+                <option value="">Kuwait</option>
+                <option value="">South korea</option>
+                <option value="">Switzerland</option>
+                <option value="">Maldives</option>
+
+            </select>
+            <br>
+           <input type="file"placeholder="choose file">
+          
+           <input type="submit"placeholder="submit">
+       </form>
+    </body>
+</html>
